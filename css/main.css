@@ -683,3 +683,49 @@ ul.listing li.listing-item a {
   display: block;
   margin-left: auto;
   margin-right: auto; }
+
+
+  /* ===== 手机端导航栏修复 ===== */
+@media screen and (max-width: 768px) {
+
+  /* 取消右浮和右对齐，改为居中 */
+  .site-nav ul {
+    text-align: center;
+    float: none;
+    padding-top: 5px;
+  }
+
+  /* 菜单项缩小间距、允许横向滚动 */
+  .site-nav .menu {
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 5px;
+  }
+
+  .site-nav .menu > li {
+    margin: 5px 8px 0 8px;   /* 缩小间距 */
+    font-size: 13px;         /* 缩小字体 */
+  }
+
+  /* site-title 和 subtitle 手机端也调一下 */
+  .site-title {
+    font-size: 18px;
+    float: none;
+    text-align: center;
+    display: block;
+  }
+
+  .site-subtitle {
+    font-size: 14px;
+    float: none;
+    text-align: center;
+    margin-left: 0;
+    padding-top: 4px;
+  }
+
+  .site-header .wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
