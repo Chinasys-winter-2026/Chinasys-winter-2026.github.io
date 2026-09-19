@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>会议酒店</title>
+  <meta name="description" content="Chinasys 2021">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+
+<body>
+
+  <header class="site-header">
+
+    <div class="wrapper">
+        <a class="site-title" href="index.html">第31届中国计算机系统研讨会</a>
+        <p class="site-subtitle">中国·长沙</p>
+
+        <nav class="site-nav">
+            <div class="trigger">
+                <ul class="menu">
+                    <li><a href="index.html" class="page-link">主页</a></li>
+                    <li><a href="program.html" class="page-link">议程</a></li>
+                    <li><a href="organizers.html" class="page-link">组委会</a></li>
+                    <li><a href="venue.html" class="page-link">会场</a></li>
+                    <li><a href="neighbor.html" class="page-link">会议酒店</a></li>
+                    <li><a href="reg.html" class="page-link">注册</a></li>
+                    <li><a href="callforparer.html" class="page-link">征稿</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+  </header>
+
+
+<div class="page-content">
+  <div class="wrapper">
+    <div class="post">
+      <article class="post-content">
+
+        <!-- 页内样式：酒店列表响应式布局 -->
+        <style>
+            .hotel-table {
+                width: 100%;
+                table-layout: fixed;
+                border-collapse: separate;
+                border-spacing: 1em 0;
+            }
+            .hotel-table tbody td {
+                width: 50%;
+                padding: 1.2em;
+                vertical-align: top;
+                border: 1px solid #e8e8e8;
+                border-radius: 8px;
+                background: #fff;
+                box-sizing: border-box;
+            }
+            .hotel-table ul {
+                margin: 0.8em 0 0;
+                padding-left: 0;
+                list-style: none;
+            }
+            .hotel-table li {
+                display: flex;
+                align-items: flex-start;
+                gap: 0.4em;
+                margin: 0.65em 0;
+                line-height: 1.65;
+            }
+            .item-label {
+                flex: 0 0 5.6em;
+                font-weight: 600;
+                white-space: nowrap;
+            }
+            .item-content {
+                flex: 1;
+                min-width: 0;
+            }
+            .hotel-qrcode {
+                width: 160px;
+                max-width: 100%;
+                margin-top: 0.6em;
+            }
+            @media screen and (max-width: 640px) {
+                .hotel-table {
+                    width: 100%;
+                    table-layout: fixed;
+                    border-spacing: 0.45em 0;
+                    font-size: 0.82em;
+                }
+                .hotel-table tbody td {
+                    width: 50%;
+                    padding: 0.75em 0.65em;
+                    border-radius: 6px;
+                }
+                .hotel-table p {
+                    margin: 0 0 0.6em;
+                    line-height: 1.45;
+                }
+                .hotel-table li {
+                    display: block;
+                    margin: 0.55em 0;
+                    line-height: 1.55;
+                }
+                .item-label {
+                    display: block;
+                    margin-bottom: 0.1em;
+                    white-space: normal;
+                }
+                .item-content {
+                    display: block;
+                }
+                .hotel-qrcode {
+                    width: 120px;
+                    display: block;
+                    margin: 0.6em auto 0;
+                }
+            }
+        </style>
+
+        <!-- [SECTION 1] 标题 -->
+        <h1 id="title">会议酒店</h1>
+        <p>1.本次大会合作酒店预留房间有限，建议各位参会学者尽早预定酒店，做好出行安排。</p>
+        <p>2.本次大会住宿费用由参会者自理</span>，如需订房及后期开具发票请联系酒店联系人或前台；</p>
+        <p>3.参会人员入住合作酒店享有协议价，订房请说明“参加中国计算机系统研讨会ChinaSys大会”享受优惠价格（详情可见住宿推荐）。</p>
+
+        <!-- 会议酒店图片 -->
+        <div style="max-width:100%; display:block; margin: 0 auto 2em;">
+          <img src="img/neighbor.png" style="max-width:100%; display:block; margin: 0 auto;">
+        </div>
+
+        <!-- [SECTION 2] 会议酒店列表 -->
+        <table class="hotel-table">
+          <tbody>
+
+          <tr>
+            <td>
+              <p><strong>会议酒店1：</strong>长沙天心福朋喜来登酒店</p>
+              <ul>
+                <li><span class="item-label">酒店地址：</span><span class="item-content">长沙天心福朋喜来登酒店(中南大学铁道学院店)<br>长沙市天心区竹塘西路179号</span></li>
+                <li><span class="item-label">会场距离：</span><span class="item-content">距离礼堂800米，步行约十分钟。</span></li>
+                <li><span class="item-label">协议价格：</span><span class="item-content">350/晚（单双同价），带早餐。</span></li>
+                <li><span class="item-label">联系人吴经理：</span><span class="item-content">18207482616</span></li>
+              
+                  <img src="img/jiudian.jpg" alt="酒店1预定二维码" class="hotel-qrcode">
+                
+              </ul>
+            </td>
+          
+            <td>
+              <p><strong>会议酒店2：</strong>长沙延年文苑酒店</p>
+              <ul>
+                <li><span class="item-label">酒店地址：</span><span class="item-content">长沙延年文苑酒店(中南林业科技大学铁道学院地铁站店)<br>长沙市天心区林大路12号(铁道学院地铁站3号口步行150米)</span></li>
+                <li><span class="item-label">会场距离：</span><span class="item-content">距离礼堂约1.6公里</span></li>
+                <li><span class="item-label">协议价格：</span><span class="item-content">320/晚（单双同价），带早餐。</span></li>
+                <li><span class="item-label">联系人杨经理：</span><span class="item-content">19974897850</span></li>
+
+                  <img src="img/jiudian2.jpg" alt="酒店2预定二维码" class="hotel-qrcode">
+
+              </ul>
+            </td>
+          </tr>
+
+          </tbody>
+        </table>
+
+      </article>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+
+          <li><a href="mailto:"></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>
