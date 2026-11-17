@@ -1,0 +1,166 @@
+.conference-content h1 {
+  line-height: 1.35;
+}
+
+.conference-content h2 {
+  color: #127f94;
+  margin-top: 32px;
+  line-height: 1.4;
+}
+
+.conference-content h3 {
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.conference-meta {
+  color: #555;
+  line-height: 1.8;
+}
+
+.conference-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0 28px;
+  line-height: 1.7;
+}
+
+.conference-table caption {
+  text-align: left;
+  font-size: 1.15em;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #522d80;
+}
+
+.conference-table th,
+.conference-table td {
+  padding: 8px 12px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #e1e8ed;
+  overflow-wrap: anywhere;
+}
+
+.conference-table thead {
+  background: #f0f7fa;
+  color: #127f94;
+}
+
+.conference-table .schedule-time {
+  width: 120px;
+  white-space: nowrap;
+  font-weight: 400;
+}
+
+.talk-author {
+  display: block;
+  color: #555;
+  margin-top: 5px;
+  font-size: 0.92em;
+}
+
+.schedule-hint {
+  color: #555;
+  font-size: 0.9em;
+}
+
+.session-reports summary,
+.poster-details summary {
+  cursor: pointer;
+  color: #0077cc;
+}
+
+.session-reports summary:focus-visible,
+.poster-details summary:focus-visible {
+  outline: 2px solid #127f94;
+  outline-offset: 4px;
+}
+
+.session-reports ul {
+  list-style: none;
+  margin: 12px 0 0;
+}
+
+.session-reports li {
+  padding: 10px 0;
+  border-top: 1px solid #e1e8ed;
+}
+
+.report-time {
+  display: block;
+  color: #555;
+  font-size: 0.9em;
+  margin-bottom: 4px;
+}
+
+.poster-details {
+  margin: 20px 0;
+}
+
+.poster-details .poster-list {
+  margin-top: 12px;
+}
+
+.poster-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid #e1e8ed;
+  overflow-wrap: anywhere;
+}
+
+.registration-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin: 24px 0;
+}
+
+.registration-card {
+  padding: 24px;
+  border: 1px solid #e1e8ed;
+  border-radius: 8px;
+  background: #fff;
+  text-align: center;
+}
+
+.registration-card h3 {
+  color: #127f94;
+  font-size: 1.35em;
+  font-weight: 600;
+}
+
+.registration-card img {
+  display: block;
+  width: 260px;
+  height: auto;
+  margin: 0 auto 16px;
+}
+
+.registration-card figcaption {
+  font-size: 0.95em;
+  color: #555;
+}
+
+.industry-registration-qrcode {
+  display: block;
+  width: 220px;
+  height: auto;
+  margin: 16px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .registration-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .conference-table th,
+  .conference-table td {
+    padding: 10px 8px;
+    font-size: 0.9em;
+  }
+
+  .conference-table .schedule-time {
+    width: 90px;
+  }
+}
