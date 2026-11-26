@@ -211,6 +211,68 @@ a {
     color: #111;
     text-decoration: underline; }
 
+.home-downloads {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 24px;
+  margin: 24px 0;
+  padding: 16px 20px;
+  border: 1px solid #e1e8ed;
+  border-radius: 6px;
+  background: #f0f7fa;
+}
+
+.post-content .home-downloads h2 {
+  margin: 0;
+  color: #127f94;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.home-downloads-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.home-download-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 14px;
+  border: 1px solid #d4e3ec;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.home-download-link:hover {
+  border-color: #0077cc;
+  color: #0077cc;
+  background: #f8fcff;
+}
+
+.home-download-link:focus-visible,
+.home-quick-links a:focus-visible {
+  outline: 2px solid #127f94;
+  outline-offset: 3px;
+}
+
+.home-download-format {
+  color: #667785;
+  font-size: 0.75em;
+}
+
+.home-quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 28px;
+  padding: 20px 0;
+  border-top: 1px solid #e1e8ed;
+  font-size: 1.1em;
+}
+
 /* .post-content a, .home a {
 	font-weight: 500;
 } */
